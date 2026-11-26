@@ -1,0 +1,7 @@
+products = ('mouse', 'keyboard', 'monitor', 'mouse', 'laptop')
+products=list(products)
+products.append('printer')
+products.remove('keyboard')
+print(products)
+products=tuple(products)
+print(products)
